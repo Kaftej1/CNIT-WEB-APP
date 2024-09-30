@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+.hero-container {
+    position: relative;
+    width: 100%;
+    margin-top: 1rem;
+}
+.slogan{
+    font-family: "Allura", cursive;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    filter: brightness(0.35);
+}
+
+.overlay {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Text color */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.overlay h3{
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+
+    
+}
+.overlay p{
+    letter-spacing: 1px;
+    line-height: 1;
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 25px;
+    font-family: 'allura',cursive;
+}
+.border-button {
+    display: inline-block; /* Makes it behave like a button */
+    border-radius: 25px;
+    background-color: transparent; /* Empty background */
+    border: 2px solid white; /* White border */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s, color 0.3s; /* Transition effects */
+    font-family: 'montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.border-button:hover {
+    background-color: white; /* Background color on hover */
+    color: black; /* Text color on hover */
+}
+
+
+
+/* container Presontation Generale */
+
+.containerPresontationGenerale {
+    width: 100%;
+    min-height: 650px;
+    padding: 180px 2rem 20px 40%;
+    margin: 0 auto;
+}
+
+.containerPresontationGenerale .box {
+    max-width: 85%;
+    height: auto;
+    padding: 1.5rem 1rem 3rem 7rem;
+    /* border: 1px solid #000; */
+    background-color: #17458F;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    font-family: "Roboto", system-ui;
+    font-weight: 350;
+    font-style: normal;
+    position: relative;
+}
+
+.containerPresontationGenerale .box p {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+.containerPresontationGenerale .box h2 {
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 2%;
+    color: #F7A81B;
+}
+
+.containerPresontationGenerale .box::after {
+    content: '';
+    position: absolute;
+    top: -30%;
+    left: -49%;
+    width: 448px;
+    height: 252px;
+    /* border: 1px solid #000; */
+    background-image: url('src\assets\images\presentation generale.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+/* container actualités récentes */
+.actualisé{
+    background-color: #051229;
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+.actualisébox {
+    border-radius: 10px;
+    gap: 3rem;
+    display: flex;
+    justify-content: center; /* Horizontal alignment */
+    align-items: center;     /* Vertical alignment */
+    height: 100%;  
+    padding-bottom: 50px;
+}
+.titreactualités{
+    font-size: 28px;
+    font-family: 'roboto';
+    color: #F7A81B;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 300;
+}
+/* container actionAvenir */
+.titreActionAvenir{
+    color: black;
+    text-align: center;
+}
+.allimgsavenir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.2smallimgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
